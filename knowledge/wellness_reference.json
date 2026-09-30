@@ -1,0 +1,48 @@
+{
+  "title": "NisurgCare Wellness Reference",
+  "version": "2026-09-15",
+  "purpose": "Plain-language reference material for non-diagnostic, resident-specific wellness check-ins. It is not a clinical decision tool.",
+  "references": [
+    {
+      "topic": "Blood pressure categories",
+      "source": "American Heart Association",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings",
+      "note": "For adults, a normal reading is below 120/80 mm Hg; individual goals can differ."
+    },
+    {
+      "topic": "Resting pulse",
+      "source": "American Heart Association",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse",
+      "note": "For most adults who are calm and at rest, 60–100 beats per minute is a common reference range."
+    },
+    {
+      "topic": "Sleep",
+      "source": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/sleep/about/index.html",
+      "note": "For adults age 65 and older, 7–8 hours is a general daily reference."
+    },
+    {
+      "topic": "Blood glucose",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/ency/article/003482.htm",
+      "note": "A fasting blood-glucose reference of 70–99 mg/dL does not apply to random or post-meal readings; an individual care plan controls."
+    }
+  ],
+  "guidance": {
+    "higher_consistency": "Your recent routine information is broadly close to your own baseline. Continue the routines that support your comfort, rest, and regular movement.",
+    "medium_consistency": "A few recent routine signals are less consistent with your usual pattern. Consider noting how you feel and sharing a persistent change with your care team.",
+    "lower_consistency": "Several recent routine signals differ from your usual pattern. A care-team check-in can help decide whether the change is temporary or needs follow-up.",
+    "sleep_below_reference": "Your recent sleep is below the general 7–8 hour reference for many adults age 65+. Sleep needs vary, so compare it with your usual pattern and care plan.",
+    "resting_pulse_outside_reference": "Your displayed resting pulse differs from the common 60–100 bpm adult reference. Medicines, activity, and individual health needs can affect pulse; use your personal care plan as the guide.",
+    "blood_pressure_context": "Blood-pressure numbers are shown for context only. Individual targets differ, and one reading alone should not be interpreted without a qualified care professional.",
+    "glucose_context": "Glucose readings depend on timing, meals, medicines, and an individual care plan. The general fasting reference does not classify a random reading.",
+    "movement_context": "Movement is compared with your own recent routine, not with a universal target. Comfort, mobility needs, and clinician guidance matter."
+  },
+  "reference_ranges": {
+    "sleep_age_65_plus_hours": {"lower": 7, "upper": 8, "label": "7–8 hours"},
+    "resting_pulse_bpm": {"lower": 60, "upper": 100, "label": "60–100 bpm"},
+    "fasting_glucose_mg_dl": {"lower": 70, "upper": 99, "label": "70–99 mg/dL", "important": "Applies only to fasting blood-glucose tests."},
+    "blood_pressure_mm_hg": {"normal_systolic_below": 120, "normal_diastolic_below": 80, "elevated_systolic_lower": 120, "stage_1_systolic_lower": 130, "stage_1_diastolic_lower": 80, "stage_2_systolic_lower": 140, "stage_2_diastolic_lower": 90, "severe_systolic_lower": 180, "severe_diastolic_lower": 120}
+  },
+  "safety": "This information supports conversation and human review. It does not diagnose, prescribe, determine urgency, or replace a qualified clinician or emergency service."
+}

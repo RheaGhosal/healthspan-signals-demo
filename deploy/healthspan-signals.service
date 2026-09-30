@@ -1,0 +1,14 @@
+[Unit]
+Description=Healthspan Signals fictional demo
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/healthspan-signals-demo
+ExecStart=/usr/bin/python3 /home/ubuntu/healthspan-signals-demo/server.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
